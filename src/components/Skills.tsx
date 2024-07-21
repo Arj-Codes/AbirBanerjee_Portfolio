@@ -1,8 +1,6 @@
-import { RoleItems } from "@/Items/Items"
-import MyImg from "../assets/abirimage.png"
 import { AnimatePresence, motion, useAnimation, useInView } from "framer-motion"
 import { useEffect, useRef } from "react"
-import { EntryLeftVariants, EntryRightVariants, LiVariants, UlVariants } from "@/Variants/Variants"
+import { LiVariants, UlVariants } from "@/Variants/Variants"
 const Skills = () => {
   const ref = useRef(null);
   const refCard = useRef(null);
