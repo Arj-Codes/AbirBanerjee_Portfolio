@@ -1,10 +1,18 @@
-import frontendicon from "../assets/frontend.png";
-import creatoricon from "../assets/creator.png";
-import engineericon from "../assets/engineer.png";
+import frontendicon from "../assets/frontendicon.png";
+import backendicon from "../assets/backendicon.png";
+import programmericon from "../assets/programmericon.png";
 
 import hdlogo from "../assets/experience/logo.png";
 import birlalogo from "../assets/experience/birlapivot.png";
 import pietechlabslogo from "../assets/experience/pietechlabs.png";
+
+import wellconnectimg from "../assets/wellconnect.png";
+import rakshadialimg from "../assets/rakshadial.png";
+import highwaydeliteimg from "../assets/highwaydelite.png";
+import charginimg from "../assets/chargin.png";
+import trackdeliteimg from "../assets/trackdelite.png";
+import rakshaqrimg from "../assets/rakshaqr.png";
+import { ProjectProps } from "@/Props";
 
 export const MenubarItems = [
   {
@@ -24,18 +32,18 @@ export const MenubarItems = [
 export const RoleItems = [
   {
     id: 1,
-    roleName: "Full Stack Developer",
+    roleName: "Front End Developer",
     roleIcon: frontendicon,
   },
   {
     id: 2,
-    roleName: "Engineer",
-    roleIcon: engineericon,
+    roleName: "Backend Developer",
+    roleIcon: backendicon,
   },
   {
     id: 3,
-    roleName: "Content Creator",
-    roleIcon: creatoricon,
+    roleName: "Programmer",
+    roleIcon: programmericon,
   },
 ];
 
@@ -78,5 +86,56 @@ export const ExperienceItems = [
       "Developed and designed an engaging and user-friendly ecommerce website for an ice cream company using React, Tailwind, and MaterialUI for the front-end design and Redux for state management.",
       "Integrated with a backend system for product inventory management and order processing",
     ],
+  },
+];
+
+export const MyProjects:ProjectProps[] = [
+  {
+    id: 1,
+    name: "WellConnect",
+    desc: "A Medical Application made to ease patient's responsibility of sorting medical documents",
+    gitlink: "https://github.com/Arj-Codes/WellConnect",
+    weblink: "https://well-connect.vercel.app/",
+    image: wellconnectimg,
+  },
+  {
+    id: 2,
+    name: "RakshaDial",
+    desc: "Raksha dial is a AI technology tool to report rash driving and save lives on the roads",
+    gitlink: undefined,
+    weblink: "https://rakshadial.com/home",
+    image: rakshadialimg,
+  },
+  {
+    id: 3,
+    name: "Highway Delite",
+    desc: "India's largest digitally connected mobility and highway wayside amenities platform",
+    gitlink: undefined,
+    weblink: "https://highwaydelite.com/",
+    image: highwaydeliteimg,
+  },
+  {
+    id: 4,
+    name: "EV Chargin",
+    desc: "Your all-in-one EV charging provider",
+    gitlink: undefined,
+    weblink: "https://chargin.mobi/home",
+    image: charginimg,
+  },
+  {
+    id: 5,
+    name: "Track Delite",
+    desc: "A GPS Tracking and Fleet Management Solution",
+    gitlink: undefined,
+    weblink: "https://trackdelite.com/",
+    image: trackdeliteimg,
+  },
+  {
+    id: 6,
+    name: "RakshaQR",
+    desc: " Our innovative solution saves lives by ensuring prompt assistance and tackles unattended parking",
+    gitlink: undefined,
+    weblink: "https://rakshaqr.com/",
+    image: rakshaqrimg,
   },
 ];

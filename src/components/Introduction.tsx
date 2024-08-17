@@ -10,11 +10,11 @@ const Introduction = () => {
       <div className="wrapper w-full h-full flex flex-col md:flex-row items-center justify-center md:justify-between gap-8 md:gap-0" >
         <motion.div variants={EntryLeftVariants} initial="initial" animate="animate" className="intro flex flex-col gap-6 md:gap-10 w-full md:w-[50%] order-2 md:order-1">
           <div className="top flex flex-col">
-            <h1 className="text-[1.5rem] md:text-[3rem] font-[600]">Hi<span className="">👋</span></h1>
+            <h1 className="text-[1.5rem] md:text-[3rem] font-[600]">Hi<span className="waving-hand">👋</span></h1>
             <h1 className="text-[1.5rem] md:text-[3rem] font-[600]">I am <span className="text-secondaryText md:text-[3.2rem] font-[700]">Abir Banerjee, </span> </h1>
             <h1 className="text-[1.5rem] md:text-[3rem] font-[600]">a <span className="text-primaryText">
               <Typewriter
-                words={['Full Stack Developer', 'Engineer', 'Content Creator']}
+                words={['Frontend Developer', 'Backend Developer', 'Programmer']}
                 loop={true}
                 typeSpeed={35}
                 deleteSpeed={35}

@@ -95,26 +95,69 @@
 .secondary-button {
   background: linear-gradient(to right, #e4479e, #c343b8, #a63fcd, #823be9);
 }
-.each_role {
+.each_role,.each_project {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .parent_card {
   background: linear-gradient(to right, #e4479e, #c343b8, #a63fcd, #823be9);
-  border-radius:0.75rem;
-  color:white;
+  border-radius: 0.75rem;
+  color: white;
 }
 .child_card {
   background: #151030;
   margin: 1.5px;
-  border-radius:0.75rem;
+  border-radius: 0.75rem;
 }
-.date{
-color: white;
+.date {
+  color: white;
 }
 .vertical-timeline-element-content {
   background: transparent;
   border-radius: 0;
+}
+
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display:inline-flex;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.highlight {
+  background: linear-gradient(to right, #e4479e, #c343b8, #a63fcd, #823be9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* #241c51 */

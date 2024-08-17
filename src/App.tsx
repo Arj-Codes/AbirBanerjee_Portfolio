@@ -6,8 +6,7 @@ import Menubar from "./components/Menubar";
 import Introduction from "./components/Introduction";
 import SectionDivider from "./components/SectionDivider";
 import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
+import SkillsAndExperience from "./components/Skills";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,9 +25,7 @@ function App() {
         <SectionDivider />
         <AboutMe />
         <SectionDivider />
-        <Experience />
-        <SectionDivider />
-        <Skills />
+        <SkillsAndExperience />
       </div>
     </div>
   )
